@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="This page is all about PUP hymn"/>
+  <meta name="author" content="Rowel Dacut"/>
+  <meta name="viewport" content="width=device-width, initial-scale= 1">
+  <title>PUP HYMN</title>
+  <link rel="icon" href="puplogo.png" type="image/x-icon"/>
+
+</head>
+<body>
+  <header>
+    <img src="puplogo.png" alt="Logo">
+    <!-- Adds the PUP logo image -->
+    <h1>POLYTECHNIC UNIVERSITY OF THE PHILIPPINES </h1>
+    <!-- Displays the page header -->
+  </header>
+  <br>
+  <h2>PUP HYMN</h2>
+  <!-- Displays the subheader for the hymn -->
+  <div class="box">
+      <!-- Contains the lyrics of the PUP hymn with data attributes for start and end times -->
+      <p class="line" data-start="0" >♫♫♫</p>
+      <p class="line" data-start="12" >Sintang Paaralan</p>
+      <p class="line" data-start="15" >Tanglaw ka ng bayan</p>
+      <p class="line" data-start="18.5" >Pandayan ng isip ng kabataan</p>
+      <p class="line" data-start="23.5" >Kami ay dumating nang salat sa yaman</p>
+      <p class="line" data-start="29.5" >Hanap na dunong ay iyong alay</p>
+      <p class="line" data-start="35" >Ang layunin mong makatao</p>
+      <p class="line" data-start="42" >Dinarangal ng Pilipino</p>
+      <p class="line" data-start="48" >Ang iyong aral, diwa, adhikang taglay</p>
+      <p class="line" data-start="53" >PUP, aming gabay</p>
+      <p class="line" data-start="55.5" >Paaralang dakila</p>
+      <p class="line" data-start="61" >PUP, pinagpala</p>
+      <p class="line" data-start="69" >Gagamitin ang karunungan</p>
+      <p class="line" data-start="74" >Mula sa iyo, para sa bayan</p>
+      <p class="line" data-start="80" >Ang iyong aral, diwa, adhikang taglay</p>
+      <p class="line" data-start="86" >PUP, aming gabay</p>
+      <p class="line" data-start="89" >Paaralang dakila</p>
+      <p class="line" data-start="95" >PUP, pinagpala</p>
+      <p class="line" data-start="105">...</p>  
+  </div>
+  <br>
+  <audio id="audio" controls autoplay loop ontimeupdate="displayLyrics(event)">
+    <!-- Embeds the audio player with controls and triggers the displayLyrics function on time updates -->
+    <source src="audio.ogg" type="audio/ogg">
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+</body>
+<br>
+<footer>
+  <p id="footer" class="footer">Copyright © 2017 Polytechnic University of the Philippines</p>
+  <!-- Displays the footer with copyright information -->
+</footer>
+
+<link rel="stylesheet" href="style.css">
+<!-- Links the external CSS file for styling -->
+<script src="script.js"></script>
+<!-- Links the external JavaScript file for handling events and interaction -->
+
+</html>

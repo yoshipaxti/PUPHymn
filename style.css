@@ -1,0 +1,139 @@
+/* CSS for highlighted lyrics */
+.highlight {
+  background-color: antiquewhite; /* Background color for the highlighted line */
+  font-weight: bold; /* Bold font weight for the highlighted line */
+  padding: 15px; /* Padding for the highlighted line */
+  margin: 0; /* No margin for the highlighted line */
+}
+
+/* CSS for each line of lyrics */
+.line {
+  margin-bottom: 1em; /* Bottom margin for each line */
+  font-size: 20px; /* Font size for each line */
+  color: black; /* Font color for each line */
+  text-align: center; /* Center align each line */
+  line-height: 0.5; /* Line height for each line */
+}
+
+/* CSS for the audio player */
+#audio {
+  display: block; /* Display the audio player as a block element */
+  margin: 0 auto; /* Center the audio player horizontally */
+  border: 3px solid black; /* Border for the audio player */
+  padding: 10px; /* Padding for the audio player */
+  width: 35%; /* Width of the audio player */
+  height: 40px; /* Height of the audio player */
+  background-color: #fff; /* Background color of the audio player */
+  position: inherit; /* Inherit position */
+}
+
+/* CSS for the container of the audio player */
+#audio-container {
+  display: block; /* Display the audio player container as a block element */
+  justify-content: center; /* Center the audio player container horizontally */
+}
+
+/* CSS for the lyrics box */
+.box {
+  width: 30%; /* Width of the lyrics box */
+  height: 280px; /* Height of the lyrics box */
+  overflow: scroll; /* Add a scroll bar when necessary */
+  border: 3px solid black; /* Border for the lyrics box */
+  padding: 25px; /* Padding for the lyrics box */
+  margin: auto; /* Center the lyrics box horizontally */
+  line-height: 2px; /* Line height for the lyrics box */
+  align-items: center; /* Center the items in the lyrics box vertically */
+  position: relative; /* Set the position to relative */
+  background-color: #fff; /* Background color of the lyrics box */
+}
+
+/* CSS for the header */
+header {
+  width: 100%; /* Width of the header */
+  height: 5vw; /* Height of the header */
+  padding: 1.5vw; /* Padding for the header */
+  color: #fff; /* Font color for the header */
+  background-image: url('br.jpg'); /* Background image for the header */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: 100%; /* Set the size of the background image to 100% */
+  position: inherit; /* Inherit position */
+}
+
+/* CSS for the image in the header */
+img {
+  float: left; /* Float the image to the left */
+  height: 5vw; /* Height of the image */
+  width: 5vw; /* Width of the image */
+  margin-left: 50px; /* Left margin for the image */
+}
+
+/* CSS for the heading in the header */
+h1 {
+  color: white; /* Font color for the heading */
+  margin-left: 50px; /* Left margin for the heading */
+  float: left; /* Float the heading to the left */
+  width: fit-content; /* Set the width of the heading to fit its content */
+  font-size: 2vw; /* Font size for the heading */
+  text-align: center; /* Center align the heading */
+}
+
+/*
+
+
+/* CSS for the subheading */
+h2 {
+  color: maroon; /* Font color for the subheading */
+  font-family: 'Times New Roman'; /* Font family for the subheading */
+  text-align: center; /* Center align the subheading */
+  font-weight: bold; /* Bold font weight for the subheading */
+  position: center fixed; /* Set the position of the subheading to center fixed */
+  font-size: 20px; /* Font size for the subheading */
+}
+
+/* CSS for the footer */
+footer {
+  position: fixed; /* Set the position of the footer to fixed */
+  bottom: 0; /* Align the footer to the bottom */
+  width: 100%; /* Width of the footer */
+  background-color: maroon; /* Background color of the footer */
+  padding: 0.5px; /* Padding for the footer */
+  height: 50px; /* Height of the footer */
+  box-sizing: border-box; /* Include border and padding in the total width and height of the element */
+}
+
+/* CSS for the text in the footer */
+.footer {
+  font-size: 18px; /* Font size for the text in the footer */
+  color: white; /* Font color for the text in the footer */
+  text-align: center; /* Center align the text in the footer */
+  font-family: Arial; /* Font family for the text in the footer */
+}
+
+/* CSS for the body */
+body {
+  background-color: antiquewhite; /* Background color of the body */
+}
+
+/* CSS for media queries */
+@media screen and (max-width: 800px) {
+  #lyrics {
+    font-size: 4vw; /* Font size for the lyrics on smaller screens */
+    margin-left: 2vw; /* Left margin for the lyrics on smaller screens */
+  }
+  
+  #audio {
+    width: 90%; /* Width of the audio player on smaller screens */
+    padding: 1vw; /* Padding for the audio player on smaller screens */
+  }
+  
+  .code-box {
+    width: 90%; /* Width of the code box on smaller screens */
+    height: 300px; /* Height of the code box on smaller screens */
+    max-width: none; /* Set the maximum width of the code box to none */
+  }
+  
+  header {
+    height: 10vw; /* Height of the header on smaller screens */
+    padding: 1vw; /* Padding for the header on smaller screens */
+  }
+}
